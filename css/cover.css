@@ -28,9 +28,17 @@ html,
 body {
   height: 100%;
   background-color: #fbb713;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 body {
+ font-family: 'Montserrat', sans-serif;
+  font-weight: 900 !important; /* Adding !important to ensure it takes precedence */
+  font-size: 1.2em;
+  text-align: center;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
